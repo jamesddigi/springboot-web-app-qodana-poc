@@ -8,7 +8,9 @@ profile:
   name: qodana.recommended
 include:
   - name: CheckDependencyLicenses
-    options: 
-      allowedLicenses:
-        - MIT
-        - Apache-2.0
+licenseRules:
+  - keys:
+      - "Allowed"
+    allowed:
+      - "MIT"
+      - "Apache-2.0"
