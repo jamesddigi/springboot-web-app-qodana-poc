@@ -8,9 +8,12 @@ profile:
   name: qodana.recommended
 include:
   - name: CheckDependencyLicenses
+  - name: JvmTaintAnalysis
+  - name: VulnerableLibrariesLocal
+  - name: IncorrectFormatting
 licenseRules:
   - keys:
-      - "Allowed"
+      - "MIT"
     allowed:
       - "MIT"
       - "Apache-2.0"
